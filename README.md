@@ -26,3 +26,22 @@ The contents in these folders contain solution files for walkthroughs.
 
 - Publish your API to **Exchange** (there's a button for that too :)  Look at the top-right corner)
 
+<BR>
+
+## How to import the solution .jar file into Studio?
+
+- Download the .jar file from appropriate day's folder
+
+- Start **Anypoint Studio** and connect to your workspace
+
+- **Note**: If you plan to import a project whose name already exist, right-click on the prject and _delete_ it first (don't forget to select the _checkmark_ before deletion)
+
+- Within **Package Explorer** section (top-left), right-click anywhere in white space, select **Import** to open the wizard
+
+- Within **Import** wizard, exapnd **Anypoint Studio > Packaged Mule application (jar)** and click **Next**
+
+- Browse and select the .jar file that you downloaded, and click **Finish**
+
+- Wait till all necessary dependencies are downloaded (progress is indicated at the bottom-right corner of Studio)
+
+- Now, you are ready to either add more content or run the mule app
